@@ -1,9 +1,4 @@
 
-```diff
-# text in green
-```
-
-
 # This function let to observe the UMAP odf a scATAC object and its QC metrics  
 
 ATAC.QC = function(obj){ 
