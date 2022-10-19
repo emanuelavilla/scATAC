@@ -1,4 +1,10 @@
-#This function let to observe the UMAP odf a scATAC object and its QC metrics  
+
+```diff
+# text in green
+```
+
+
+# This function let to observe the UMAP odf a scATAC object and its QC metrics  
 
 ATAC.QC = function(obj){ 
   UmapObj = DimPlot(obj, reduction = 'umap', label = T, label.size = 7) + NoLegend() 
